@@ -1,1 +1,22 @@
+<div class="container">
 
+          <div class="well row">
+       <div class="col-xs-5 text-left">
+      <a routerLink="/events" class="btn btn-success" style="text-decoration:none;"><i class="fa fa-arrow-left" aria-hidden="true">Back</i></a>
+   </div>
+   <div class="col-xs-7 text-left">
+
+        <h2>{{activity}}</h2>
+   </div>
+
+
+        </div>
+
+           <hr/>
+           <div class="text-right">
+              <input type="button" (click)="editTask()" value="Edit" class="btn btn-danger">
+
+              <input type="button" (click)="deleteTask()" value="Delete" class="btn btn-danger">
+           </div>
+
+</div>
